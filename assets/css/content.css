@@ -1,0 +1,13 @@
+.content p {
+	margin-bottom:1.5em;
+}
+.content ul,
+.content ol {
+	padding-left:3em;
+}
+.content ul li {
+	list-style:circle inside;
+}
+.content ol li {
+	list-style:decimal inside;
+}

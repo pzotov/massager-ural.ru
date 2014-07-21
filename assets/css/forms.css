@@ -1,0 +1,125 @@
+input, textarea, button, select {
+	font-family:inherit;
+	font-size:inherit;
+}
+::placeholder {
+	color:#7f7f7f;
+	font-size:1em;
+}
+
+.form {
+	width: 400px;
+}
+.form__row {
+	margin-bottom:15px;
+}
+.form__row_submit {
+	text-align:right;
+}
+.form__label {
+	display:block;
+	margin-bottom: 6px;
+}
+.form__required {
+	font-weight:bold;
+	margin-left:5px;
+}
+.form__input,
+.form__textarea {
+	border:1px solid #ccc;
+	background-color:#fff;
+	padding:0 0 0 10px;
+	height:30px;
+	line-height:30px;
+	width:400px;
+	display:inline-block;
+	color:#181818;
+	font-size:14px;
+	border-radius: 4px;
+}
+.form__input_short {
+	width: 100px;
+}
+.form__textarea {
+	line-height:20px;
+	height: auto;
+}
+.form__button {
+	display: inline-block;
+	height:29px;
+	line-height:26px;
+	border-radius:4px;
+	background-color: #049f00;
+	border:0 none;
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	padding:0 25px;
+}
+.form__button:hover {
+	background-color:#026900;
+	color:#fff;
+}
+
+.form__select,
+.select {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+}
+.form__select:after,
+.select:after {
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 7px solid #7a7a7a;
+	border-right: 4px solid #fff;
+	border-left: 4px solid #fff;
+	position: absolute;
+	right: 6px;
+	top: 8px;
+}
+.form__select select,
+.select select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	padding:0 28px 0 8px;
+	border: 0 none;
+	background-color: transparent;
+}
+
+
+.form__checkbox {
+	display:inline-block;
+	width:19px;
+	height:19px;
+	vertical-align:middle;
+	background:url(../images/icons.png) -12px 0 no-repeat;
+	overflow:hidden;
+	cursor:pointer;
+}
+.form__checkbox input {
+	opacity:0;
+	cursor:pointer;
+}
+.form__checkbox_checked {
+	background-position:-31px 0;
+}
+
+.warnText {
+	color:#c1003f;
+	font-size:18px;
+	margin:1em 0;
+}
